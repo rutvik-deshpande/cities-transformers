@@ -1,9 +1,9 @@
 import streamlit as st
 import openai
 
-OPEN_API_KEY=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
+OPEN_API_KEY="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"
 
-openai.api_key = os.getenv("OPEN_API_KEY")
+openai.api_key = os.getenv(OPEN_API_KEY)
 
 st.set_page_config(layout="wide", page_icon="🏢", page_title="Cities Transfomer")
 st.title("🏢 GPT-3 for 15' City Design")
